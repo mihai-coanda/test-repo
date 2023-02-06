@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="https://www.dita-ot.org/project">
+    <context id="flowers" name="All Flowers ctxt">
+        <input href="flowers.ditamap"/>
+    </context>
+    <context id="spring_flowers" name="Spring Flowers ctxt">
+        <input href="spring_flowers.ditamap"/>
+    </context>
+    <context id="summer_flowers" name="Summer Flowers ctxt">
+        <input href="summer_flowers.ditamap"/>
+    </context>
+    <context id="autumn_flowers" name="Autumn Flowers ctxt">
+        <input href="autumn_flowers.ditamap"/>
+    </context>
+    <context id="winter_flowers" name="Winter Flowers ctxt">
+        <input href="winter_flowers.ditamap"/>
+    </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="Flowers_Template3-1672989187480" name="Flowers Template3">
+        <context idref="flowers"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="SpringFlowers-725" name="SpringFlowers">
+        <context idref="spring_flowers"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="Summer_Flowers-726" name="Summer Flowers">
+        <context idref="summer_flowers"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="Flowers_deliverable-728" name="Flowers deliverable">
+        <context idref="flowers"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="SaaSas-1669109101376" name="SaaSas">
+        <context idref="flowers"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
+</project>
